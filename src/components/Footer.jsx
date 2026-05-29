@@ -1,5 +1,5 @@
 import React from 'react';
-import { Facebook, Twitter, Instagram, MapPin, Phone, Mail } from 'lucide-react';
+import { Share2, MessageCircle, Heart, MapPin, Phone, Mail } from 'lucide-react';
 import { Link } from 'react-scroll';
 
 const Footer = () => {
@@ -23,13 +23,13 @@ const Footer = () => {
             </p>
             <div className="flex gap-4 mt-6">
               <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
-                <Facebook size={20} />
+                <Share2 size={20} />
               </a>
               <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
-                <Instagram size={20} />
+                <Heart size={20} />
               </a>
               <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
-                <Twitter size={20} />
+                <MessageCircle size={20} />
               </a>
             </div>
           </div>
